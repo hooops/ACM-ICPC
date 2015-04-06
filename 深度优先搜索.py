@@ -18,11 +18,11 @@ def dfs(i,sum):
         return True
     else:
         return False
-# if __name__=='__main__':
-#     if dfs(0,0):
-#         print 'yes'
-#     else:
-#         print 'no'
+ if __name__=='__main__':
+     if dfs(0,0):
+         print 'yes'
+     else:
+         print 'no'
 
 #宽度优先搜索
 #和深度优先搜索类似。只是顺序搜索，同一个状态只经过一次
